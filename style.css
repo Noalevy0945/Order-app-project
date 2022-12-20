@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: "smythe";
+  position: absolute;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.bacground-img {
+  background: url(./pizza.jpeg);
+  width: 100%;
+  height: 167px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  margin-top: -32px;
+}
+
+/* manu- meal box */
+
+.meal-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 30px;
+  height: 160px;
+  align-items: center;
+  border-bottom: 1px solid #8b8b8b;
+}
+.icon {
+  font-size: 75px;
+  align-self: center;
+  padding-right: 10px;
+}
+
+.meal-header {
+  font-size: 28px;
+}
+
+.meal-ingredients {
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.meal-price {
+  font-size: 20px;
+}
+
+.plus-btn {
+  border-radius: 50px;
+  background: white;
+  color: #3c3c3c;
+  border: 1px #dedede solid;
+  height: 50px;
+  width: 50px;
+  font-size: 32px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.meal p {
+  margin: 3px;
+  padding-right: 450px;
+}
+
+/* CHECK- OUT */
+
+.checkout h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.checkout {
+  border-bottom: 1px rgb(171, 171, 171) solid;
+}
+
+.choice-checkout {
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+  flex-direction: column;
+}
+
+.choice {
+  color: black;
+  position: relative;
+
+  font-size: 18px;
+}
+.hidden {
+  display: none;
+}
+.remove-btn {
+  color: #bbbbbb;
+  width: 5%;
+  font-size: 12;
+  cursor: pointer;
+}
+
+.choice-price {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.total {
+  border-top: #8b8b8b 1px solid;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+.total-price {
+  font-size: 25px;
+
+  right: 200px;
+}
+
+.total-cal {
+  position: absolute;
+  align-self: flex-end;
+  padding-top: 40px;
+}
+
+.btn {
+  background-color: #16db99;
+  width: 500px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 60px;
+}
+
+.btn-order {
+  align-self: flex-end;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* payment */
+
+.payment {
+  height: 500px;
+  width: 520px;
+  background-color: #f5dada;
+  position: fixed;
+
+  top: 120px;
+  left: 150px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.payment-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+}
+
+.payment-btn {
+  background-color: #16db99;
+  height: 50px;
+  width: 400px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+
+.close-btn {
+  position: relative;
+  bottom: 120px;
+  left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+
+.thank-you {
+  background-color: #c0f4e2;
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 25px;
+  color: rgb(65, 114, 65);
+  text-align: center;
+  padding-top: 20px;
+  /* display: none; */
+}
